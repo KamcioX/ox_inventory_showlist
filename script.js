@@ -14,9 +14,10 @@ fetch('load_items.php')
 
 function createRow(key, item) {
     const row = document.createElement('tr');
+     // Obrazek przedmiotu ładowany z folderu ox_inventory/web/images, podmień jak trzeba
     row.innerHTML = `
         <td>
-            <img src="ox_inventory/web/images/${key}.png" alt="${item.label}" 
+            <img src="ox_inventory/web/images/${key}.png" alt="${item.label}"
                  onerror="this.src='error.png'" 
                  style="max-width: 40px; max-height: 40px;">
         </td>
