@@ -1,5 +1,3 @@
-let translations = {};
-
 fetch('load_items.php')
     .then(res => res.json())
     .then(data => {
