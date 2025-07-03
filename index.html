@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Ox Inventory - Itemy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+<div class="container py-5">
+    <h1 class="text-center mb-4">Lista itemów ox_inventory</h1>
+
+
+    <div class="mb-4">
+        <input type="text" id="searchInput" class="form-control" placeholder="🔍 Wyszukaj po nazwie...">
+    </div>
+
+  <div class="table-responsive">
+    <table class="table table-dark table-hover table-bordered align-middle text-center" id="itemsTable">
+<thead class="table-light text-dark">
+    <tr>
+        <th>Obraz</th>
+        <th>Nazwa</th>
+        <th>Opis</th>
+        <th>Waga</th>
+        <th>Stackowanie</th>
+        <th>Respname</th> 
+    </tr>
+</thead>
+
+        <tbody>
+      
+        </tbody>
+    </table>
+</div>
+
+
+<nav>
+    <ul class="pagination justify-content-center mt-4" id="pagination">
+
+    </ul>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
